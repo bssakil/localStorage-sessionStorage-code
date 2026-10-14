@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--meta seo-->
+    <meta name="description" content="this is an ecommerce project for making bs sakil">
+    <!--meta seo-->
+    <!-- font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <!-- font awesome cdn-->
+    <!-- css style-->
+    <link rel="stylesheet" href="style.css">
+    <!-- css style-->
+    <title>E-commerce Project</title>
+</head>
+<body>
+    <!-- navbar strt here-->
+    <i class="fa fa-bars fa-2x" id="menu_icon" aria-hidden="true"></i>
+    <nav id="menu" class="hidden">
+        <ul class="nav_upper flex_space_around">
+            <li class="nav_list">
+                <a href="" class="nav_link">Home</a>
+            </li>
+            <li class="nav_list">
+                <a href="register.html" class="nav_link">Register</a>
+            </li>
+            <li class="nav_list">
+                <a href="login.html" class="nav_link">Login</a>
+            </li>
+            <li class="nav_list">
+                <a href="/index.html" class="nav_link">Logout</a>
+            </li>
+            <li class="nav_list">
+                <a href="contact.html" class="nav_link">Contact</a>
+            </li>
+            <li class="nav_list">
+                <a href="profile.html" class="nav_link"><img class="profile_icon" src="./images/logo_imagess.png" alt="profile image">
+                </a>
+            </li>
+        </ul>
+
+        <ul class="nav_lower flex_space_around">
+            <li class="nav_list">
+                <a href="/index.html" class="nav_brand nav_link">Bs Sakil
+                </a>
+            </li>
+            <li class="nav_list">
+                <a href="/card.html" class="nav_link">
+                    <span>
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    </span>
+                    Cart One Product $124.50
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <!-- navbar strt here-->
+
+    <!-- header section start here-->
+     <header class="header">
+        <div class="banner flex_space_around">
+            <marquee class="banner_title" behavior="" direction="">50% Sales Going On</marquee>
+            <div class="features flex_space_around">
+                <article class="feature flex_center">
+                    <i class="fa fa-truck feature_icon" aria-hidden="true"></i>
+                    <h3>Shipping Within 7 Days</h3>
+                </article>
+                <article class="feature flex_center">
+                    <i class="fa fa-rocket feature_icon" aria-hidden="true"></i>
+                    <h3>Support 24/7</h3>
+                </article>
+                <article class="feature flex_center">
+                    <i class="fa fa-credit-card feature_icon" aria-hidden="true"></i>
+                    <h3>Safe payment</h3>
+                </article>
+            </div>
+        </div>
+     </header>
+    <!-- header section end here-->
+
+    <!-- main section start here-->
+     <main class="flex_center">
+        <div class="sidebar">
+            <section class="categores_section">
+                <h3 class="section_title">Categories</h3>
+                <ul class="list">
+                    <li class="list_item">
+                        <label for="phone">
+                            <input type="checkbox" name="phone" id="phone" value="phone">
+                            Phones
+                        </label>
+                    </li>
+                    <li class="list_item">
+                        <label for="tablets">
+                            <input type="checkbox" name="tablet" id="tablets" value="tablets">
+                            Tablets
+                        </label>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div class="main_content">main content</div>
+     </main>
+    <!-- main section end here-->
+
+    <!-- footer start here-->
+     <footer class="footer flex_space_around">
+        <div class="flex_space_around">
+            <label for="subscribe">
+                Subscribe to User:
+            </label>
+            <input type="email" id="subscribe" name="subscribe" class="footer_input" placeholder="Enter Your Email">
+            <button class="btn btn_subscribe">
+                Subscribe
+            </button>
+        </div>
+        <div>
+            <p>&copy; Copyright 2026 Bs Sakil.All Right Rserved</p>
+        </div>
+     </footer>
+    <!-- footer start here-->
+
+    <script src="./script/index.js"></script>
+</body>
+</html>
